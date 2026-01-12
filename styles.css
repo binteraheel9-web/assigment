@@ -4987,34 +4987,3 @@ td:last-child {
         line-height: var(--vspace-0_75);
     }
 }
-
-
-/* ---- FIX GALLERY IMAGES ---- */
-#gallery img {
-    width: 100%;
-    height: 260px !important;
-    object-fit: cover !important;  /* All images equal and perfect */
-    border-radius: 12px;
-    display: block;
-}
-
-
-/* ---- INTRO PRIMARY IMAGE FIX ---- */
-.intro-pic-primary img {
-    width: 100%;
-    height: 420px !important;
-    object-fit: cover !important;
-    border-radius: 16px;
-    display: block;
-}
-
-
-/* ---- INTRO SMALL / SECONDARY IMAGE FIX ---- */
-.intro-block-content__pic img {
-    width: 100%;
-    height: 260px !important;
-    object-fit: cover !important;
-    border-radius: 14px;
-    display: block;
-}
-
